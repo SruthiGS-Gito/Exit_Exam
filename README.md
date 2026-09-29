@@ -78,7 +78,7 @@ pip install -r requirements.txt
    - **Cell 9-13:** Train custom CNN
    - **Cell 14-17:** Evaluate model and analyze failures
    - **Cell 18-19:** Save model and preprocessors
-   - **Cell 20+:** Transfer learning comparison (bonus)
+   - **Cell 20+:** Transfer learning comparison
 
 ### Step 2: Download Artifacts
 After training, download:
