@@ -1,5 +1,7 @@
 # Bharatanatyam Mudra Recognition - CNN Classification
 
+# Streamlit link : https://exitexam-3ucdxysynmdghy5ywngtns.streamlit.app/
+
 ## Project Overview
 This project implements a **5-class hand gesture image classification model** to recognize Bharatanatyam mudras (hand gestures):
 - **Musti** | **Pataka** | **Sikhara** | **Simhamukha** | **Trisula**
