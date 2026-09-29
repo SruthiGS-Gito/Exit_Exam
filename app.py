@@ -30,10 +30,23 @@ st.markdown(
     """
     <style>
     .main { padding: 2rem; }
-    .stApp { background-color: #f0f2f6; }
+    .stApp { background-color: #f0f2f6; color: #1f2937; }
+    .stApp h1, .stApp h2, .stApp h3, .stApp h4,
+    .stApp p, .stApp li, .stApp label, .stApp span,
+    .stApp [data-testid="stMetricLabel"],
+    .stApp [data-testid="stMetricValue"],
+    .stApp [data-testid="stMetricDelta"],
+    .stApp [data-testid="stWidgetLabel"] {
+        color: #1f2937 !important;
+    }
+    .stApp [data-testid="stSidebar"] { background-color: #e8edf4; }
+    .stApp input, .stApp textarea { color: #1f2937 !important; }
+    .stApp input::placeholder, .stApp textarea::placeholder { color: #596579 !important; }
+    .stApp [data-testid="stAlert"] { color: #1f2937; }
     .header { text-align: center; color: #1f77b4; margin-bottom: 2rem; }
     .metric-card {
         background-color: white;
+        color: #1f2937;
         padding: 1.5rem;
         border-radius: 10px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
